@@ -1,8 +1,18 @@
-canvas {
+#game {
   background-color: grey;
   border: 10px solid lightblue;
   background-image: url(images/grass.png), url(images/water.png);
   background-position: right, left top; 
   background-size: 100px 50px, 200px 250px;
   background-repeat: repeat-x, repeat-x;
+}
+
+#home {
+  background-color: green;
+  background-image:  url(images/title-home.png), url(images/new-game-trans.png), url(images/background-start.jpg);
+  background-position: top, 125px, right top;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: contain, 250px 120px, cover;
+  /*z-index: 1, 0;*/
+  border: 10px solid purple;
 }
