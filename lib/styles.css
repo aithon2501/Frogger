@@ -1,5 +1,10 @@
 canvas {
-  background-color: white;
+  background-color: grey;
   border: 10px solid lightblue;
   /*border-radius: 40px;*/
+  z-index: 0;
+}
+
+obs {
+  border: 3px solid black;
 }
