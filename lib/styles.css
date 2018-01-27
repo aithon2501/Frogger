@@ -1,10 +1,8 @@
 canvas {
   background-color: grey;
   border: 10px solid lightblue;
-  /*border-radius: 40px;*/
-  z-index: 0;
-}
-
-obs {
-  border: 3px solid black;
+  background-image: url(images/grass.png), url(images/water.png);
+  background-position: right, left top; 
+  background-size: 100px 50px, 200px 150px;
+  background-repeat: repeat-x, repeat-x;
 }
