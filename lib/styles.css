@@ -3,6 +3,6 @@ canvas {
   border: 10px solid lightblue;
   background-image: url(images/grass.png), url(images/water.png);
   background-position: right, left top; 
-  background-size: 100px 50px, 200px 150px;
+  background-size: 100px 50px, 200px 250px;
   background-repeat: repeat-x, repeat-x;
 }
