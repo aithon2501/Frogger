@@ -5,14 +5,25 @@
   background-position: right, left top; 
   background-size: 100px 50px, 200px 250px;
   background-repeat: repeat-x, repeat-x;
+  position:absolute;
+    left:0px;
+    top:0px;
 }
 
 #home {
   background-color: green;
-  background-image:  url(images/title-home.png), url(images/new-game-trans.png), url(images/background-start.jpg);
-  background-position: top, 125px, right top;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: contain, 250px 120px, cover;
+  background-image:  url(images/title-home.png), url(images/new-game-trans.png), url(images/arrowKeys.png), url(images/background-start.jpg);
+  background-position: top, 125px, 170px 350px, right top;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: contain, 250px 120px, 150px 100px, cover;
   /*z-index: 1, 0;*/
   border: 10px solid purple;
+  position:absolute;
+    left:0px;
+    top:0px;
+  z-index: 1;
+}
+
+.arrows {
+  z-index: 2;
 }
