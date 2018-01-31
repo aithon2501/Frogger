@@ -4,6 +4,12 @@ html, body {
   margin: 0;
 }
 
+body {
+  background-color: lightgreen;
+  background-image: url(images/frogger-cursor.png);
+  background-size: 30px 30px;
+}
+
 #game {
   background-color: grey;
   border: 10px dotted green;
@@ -11,9 +17,9 @@ html, body {
   background-position: right, left top; 
   background-size: 100px 50px, 200px 250px;
   background-repeat: repeat-x, repeat-x;
-  position:absolute;
-  left:0px;
-  top:0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 
 /*.game-canvas {
