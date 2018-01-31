@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 
 #game {
@@ -11,8 +12,41 @@ html, body {
   background-size: 100px 50px, 200px 250px;
   background-repeat: repeat-x, repeat-x;
   position:absolute;
-    left:0px;
-    top:0px;
+  left:0px;
+  top:0px;
+}
+
+/*.game-canvas {
+  position: absolute;
+}*/
+
+#controls {
+  background-color: white;
+  border: 4px dashed purple;
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  margin-left: 60px;
+  top: 175px;
+  z-index: 4;
+}
+
+.menu-heading {
+  /*text-align: center;*/
+  margin-left: -4%;
+}
+
+.new-game-btn {
+  border: 2px dashed green;
+  color: green;
+  margin-left: 33%;
+}
+
+.new-game-btn:hover {
+  background-color: green;
+  border: 3px dashed white;
+  color: white;
+  cursor: url(images/frogger-cursor.png), pointer;
 }
 
 #home {
@@ -24,8 +58,8 @@ html, body {
   /*z-index: 1, 0;*/
   border: 10px solid purple;
   position:absolute;
-    left:0px;
-    top:0px;
+  left:0px;
+  top:0px;
   z-index: 1;
 }
 
