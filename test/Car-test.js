@@ -1,6 +1,5 @@
 const chai = require('chai');
 const assert = chai.assert;
-const expect = chai.expect;
 const GamePiece = require('../lib/GamePiece');
 const Car = require('../lib/Car');
 
