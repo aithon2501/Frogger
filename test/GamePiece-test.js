@@ -34,6 +34,6 @@ it('should have a color', function() {
     assert.equal(gamePiece.color, '#000000');
 });
 
-it('')
+
 
 });
