@@ -48,11 +48,4 @@ it('should move from right to left', function() {
     assert.equal(car.x, 9);
 });
 
-it.skip('should move from left to right', function() {
-    var car = new Car (10, 10, 25, 25, '#000000');
-    assert.equal(car.x, 10);
-    car.moveR();
-    assert.equal(car.x, 11);
-});
-
 })

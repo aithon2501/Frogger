@@ -54,7 +54,7 @@ describe('Frog', function () {
     var e = {keyCode: 37};
     assert.equal(frog.x, 235);
     frog.move(e);
-    assert.equal(frog.x, 215);
+    assert.equal(frog.x, 195);
   });
 
   it('should move right on right-arrow', function () {
@@ -62,7 +62,7 @@ describe('Frog', function () {
     var e = {keyCode: 39};
     assert.equal(frog.x, 235);
     frog.move(e);
-    assert.equal(frog.x, 255);
+    assert.equal(frog.x, 275);
   });
 
   it('should float right when standing on a log', function () {
