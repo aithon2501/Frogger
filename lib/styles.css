@@ -22,10 +22,6 @@ body {
   top: 0px;
 }
 
-/*.game-canvas {
-  position: absolute;
-}*/
-
 #controls {
   background-color: white;
   border: 4px dashed purple;
@@ -38,7 +34,6 @@ body {
 }
 
 .menu-heading {
-  /*text-align: center;*/
   margin-left: -4%;
 }
 
@@ -61,7 +56,6 @@ body {
   background-position: top, 125px, 170px 350px, right top;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: contain, 250px 120px, 150px 100px, cover;
-  /*z-index: 1, 0;*/
   border: 10px solid purple;
   position:absolute;
   left:0px;
