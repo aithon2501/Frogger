@@ -21,9 +21,4 @@ describe('Game', function() {
         game.levelUp();
         assert.equal(game.level, 2);
     })
-        
-    it.skip('should detect when two objects collide', function () {
-        var game = new Game();
-
-    })
 })
