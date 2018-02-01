@@ -17,8 +17,10 @@ describe('Game', function() {
 
     it('should level up', function () {
         var game = new Game();
+        var frogCounter = 2;
         assert.equal(game.level, 1);
-        game.levelUp();
+        frogCounter++
+        game.levelUp(frogCounter);
         assert.equal(game.level, 2);
     })
 })
