@@ -31,18 +31,18 @@ body {
   width: 60%;
   height: 100%;
   margin-left: 20%;
+  text-align: center;
   top: 175px;
   z-index: 4;
 }
 
 .menu-heading {
-  margin-left: -4%;
+  margin-left: -8%;
 }
 
 .new-game-btn {
   border: 2px dashed green;
   color: green;
-  margin-left: 33%;
 }
 
 .new-game-btn:hover {
